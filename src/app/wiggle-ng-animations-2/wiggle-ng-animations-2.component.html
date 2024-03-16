@@ -1,0 +1,7 @@
+Angular Animations Single State
+<button
+  class="button"
+  [@wiggle]="wiggle"
+  (@wiggle.done)="onAnimationDone($event)"
+  (click)="wiggle = 'default'"
+>Click me!</button>
