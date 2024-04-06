@@ -1,29 +1,10 @@
 :host {
   width: 50vw;
-  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
-}
-
-@keyframes wiggle {
-  0%, 100% {
-    transform: rotate(0deg);
-  }
-  17%, 50%, 84% {
-    transform: rotate(10deg);
-  }
-  35%, 67% {
-    transform: rotate(-10deg);
-  }
-}
-
-.wiggle {
-  animation: wiggle;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
 }
 
 .button {
